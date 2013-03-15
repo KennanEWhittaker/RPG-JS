@@ -63,9 +63,9 @@ function Player(prop, rpg) {
 	];	
    rpg.speedScrolling = speed;
 
-   this.moveWithMouse = false;
+   this.moveWithMouse = true;
   
-   this._useMouse = false;
+   this._useMouse = true;
    this.moving = false;
    this.keypress = false;
    this.freeze = false;
